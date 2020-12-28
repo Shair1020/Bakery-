@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Niconne&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Teko:300,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background: url(./images/header-bg.jpg);
+  background-size: 100% 100%, cover;
+  height: 100vh;
+  width: 100%;
+}
+.navbar-brand img {
+  height: 150px;
+  width: 200px;
+}
+.nav-link {
+  color: white !important;
+  font-size: 1.1rem;
+  /* font-family: "Niconne", cursive;    */
+  margin-right: 30px;
+}
+.nav-link:hover{
+    cursor: pointer;
+    transition: all ease-in-out 500ms;
+    color: #c69963!important ;
+}
+.navbar-nav {
+  margin: auto;
+}
+.page1-para h1{
+    font-family: "Niconne", cursive;
+    font-size: 4rem;
+    color: #c69963;
+}
+.page1-para h5{
+    /* font-family: "Niconne", cursive; */
+    font-size: rem;
+    color: white; 
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.b{
+    position: relative;
+    padding-left: 30px;
+}
+.b button{
+    padding: 5px 30px;
+}
+.btn-outline-primary {
+    color:white !important;
+    border-color:#c69963!important ;
+  
+}
+.page1-para{
+  transform: translateY(50%);
+  text-align: center;
+}
+
+.btn-outline-primary:hover {
+    color:white!important;
+    border-color:#c69963!important ;
+    background-color: transparent!important;
+    transition: all ease-in-out 500ms;
+    cursor: pointer;
+}
